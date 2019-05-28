@@ -1,0 +1,329 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ 
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+ 
+p {
+	margin: 0 0 1.5em 0;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+#main-header a {
+	color: white;
+}
+ 
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+	
+ 
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+	position: relative;
+	right: 200px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 45px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #0b76a6;
+}
+
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 95px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+ 
+#main-content header, #main-content .content, .formulario{
+		padding: 40px;
+	}
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	position: relative;
+	top: 11px;
+	/*width: 1400px*/
+}
+#main-footer p {
+	margin: 0;
+}
+	
+#main-footer a {
+	color: white;
+}
+
+.footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	margin: 0;
+	padding: 20px;
+	margin-top: 40px;
+	width:100%;
+	background: #333;
+	color: white;
+	height: 25px;
+	text-align: center;
+}
+
+.footer a {
+	color: white;
+}
+
+/*
+ Formulario
+*/
+.formulario {
+	text-align: center;
+}
+
+.formulario input {
+	width: 280px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    border: 1px solid #39c;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	flex-direction: column;
+}
+
+.button {
+    position: relative;
+    left: 130px;
+	top: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 6px;
+    border: 1px solid #39c;
+}
+
+.loginButton {
+	position: relative;
+	top: 15px;
+    text-decoration: none;
+    padding: 10px 70px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 6px;
+    border: 2px solid #39c;
+}
+
+.loginButton:hover {
+	background-color: #3087C6;
+	color: white;
+}
+
+a .aceptar {
+	background-color: #1883ba;
+    border: 2px solid #3087C6;
+}
+
+a .cancelar {
+	background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #F32424;
+}
+
+a .guardar {
+	background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #3ED543;
+}
+
+.aceptar:hover{
+	background-color: #3087C6;
+	color: white;
+}
+
+.cancelar:hover{
+	background-color: #F32424;
+	color: white;
+}
+
+.guardar:hover{
+	background-color: #3ED543;
+	color: white;
+}
+
+.imgCentrada {
+	display: block;
+	position: relative;
+	margin: auto;
+	top: 10px;
+	padding: 15px;
+}
+
+#usuario {
+	float: right;
+	position: relative;
+	left: 280px;
+	top: 28px;
+	text-decoration: none;
+}
+
+#usuario:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#usuario a {
+	color: white;
+}
+
+select {
+	background: transparent;
+	font-size: 12px;
+	height: 33px;
+	width: 304px;
+ 	position: relative;
+ 	left: 20px;
+ 	border-radius: 10px;
+    border: 1px solid #39c;
+}
+
+table {
+    border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0; 
+    width: 100%;
+}
+
+th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 1 6px 0 0;
+}
+
+th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+
+th{
+	background: #23A8FF;
+	color: white;
+}
+
+td{
+	text-align: center;
+	font-size: 13px;
+}
+
+.highlight {
+  background: #fbf8e9;
+  transition: all 0.1s ease-in-out;     
+}
+
+tr:hover {
+	background: #fbf8e9;
+ 	transition: all 0.1s ease-in-out; 
+}
+
+.login {
+	padding: 20px;
+}
+
+.article-estatico {
+	height: 580px;
+}
+
+input[type=radio].css-checkbox{
+	display: none;
+}
+input[type=radio].css-checkbox + label.css-label{
+	padding-left: 27px;
+	height: 18px;
+	display: inline-block;
+	line-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=radio].css-checkbox:checked + label.css-label{
+	background-position: 0 -18px;
+}
+label.css-label{
+	background-image: url(cssradiobutton.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select:none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

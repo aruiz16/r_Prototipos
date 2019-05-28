@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loggin</title>
+	<link rel="stylesheet" type="text/css" href="CSS/stilos.css">
+
+</head>
+<body>
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Luna de Queso</span>
+			<span class="site-desc">Gourmet ... aquella persona que se deleita del buen comer.</span>
+		</a> <!-- / #logo-header p-->
+ 
+		<nav>
+			<ul>
+				<li><a href="formUsuarios.html">Usuarios</a></li>
+				<li><a href="formProveedores.html">Proveedores</a></li>
+				<li><a href="formRoles.html">Roles</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>
+				<li><a href="ventas.html">Ventas</a></li>
+			</ul>
+		</nav><!-- / nav -->
+ 
+	</header><!-- / #main-header -->
+
+	<section id="main-content">
+	
+		<article>
+			<div class="login">
+				<img class="imgCentrada" src="IMG/logo.png" alt="Logotipo Oficial Luna de Queso" />
+			
+				<div class="formulario">
+					<form action="#" method="POST">
+						<label>Usuario:</label>
+						<input type="text" name="txtUsuario" id="txtUsuario" placeholder="Escriba su usuario">
+						<br><br>
+						<label>Contraseña:</label>
+						<input type="password" required="true" pattern=".{6,}" name="txtPass" id="txtPass" placeholder="Escriba su contraseña">
+						<br><br>
+						<a href="formUsuarios.html" class="loginButton">Iniciar sesión</a>
+					</form>
+				</div>
+			</div>
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->
+
+	<footer id="" class="footer">
+		<p>&copy; 2019 <a href="http://lunadequeso.com.mx/">lunadequeso.com</a></p>
+	</footer> <!-- / #main-footer -->
+
+</body>
+</html>
